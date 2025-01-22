@@ -31,12 +31,19 @@
    
      ```bash
      
-     pkg update && pkg upgrade
+     pkg update -y && pkg upgrade -y
      pkg instoll git -y
      pkg instoll termux-api
-     pkg instoll nmap -y
-     pkg install python
-     pip install psutil cryptography pillow pytesseract qrcode
+     pkg instoll nmap 
+     pkg install python -y
+     pip install psutil
+     pip install cryptography
+     pip install pillow
+     pkg install tesseract -y
+     pip install pytesseract
+     pip install qrcode
+     git clone 
+
 
       ```
 
