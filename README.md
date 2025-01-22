@@ -37,11 +37,13 @@
      pkg instoll nmap 
      pkg install python -y
      pip install psutil
-     pip install cryptography
      pip install pillow
      pkg install tesseract -y
      pip install pytesseract
      pip install qrcode
+     pip install --upgrade pip
+     pip install wheel
+     pip install cryptography
      git clone https://github.com/RH0099/Hacking-Lab.git
      cd Hacking-Lab
 
