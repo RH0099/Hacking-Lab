@@ -42,7 +42,8 @@
      pkg install tesseract -y
      pip install pytesseract
      pip install qrcode
-     git clone 
+     git clone https://github.com/RH0099/Hacking-Lab.git
+     cd Hacking-Lab
 
 
       ```
